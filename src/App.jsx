@@ -1,5 +1,6 @@
 // Library Imports:
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 
 // Component Imports:
 
@@ -7,10 +8,14 @@ import React from "react";
 
 const App = () => {
   return (
-    <div>
-      Hello from App
-    </div>
+    <>
+      <div className="flexbox-content-wrapper">
+        <Switch>
+          <Route exact path="/" component={} />
+        </Switch>
+      </div>
+    </>
   )
 }
 
-export default App
+export default App;
