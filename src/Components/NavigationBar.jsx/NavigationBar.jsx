@@ -85,26 +85,26 @@ const NavigationBar = () => {
             <a href="/">Startsida</a>
           </li>
           <li>
-            <a href="/modeller">Våra Personbilar</a>
+            <a href="/personbilar">Våra Personbilar</a>
           </li>
           <li>
-            <a href="https://isuzusverige.se/tillbehor/">Våre Eltransportbilar</a>
+            <a href="/eltransportbilar">Våre Eltransportbilar</a>
           </li>
           <li>
-            <a href="/om-oss">Våra Åretförsäljare</a>
+            <a href="/aterforsaljare">Våra Åretförsäljare</a>
           </li>
           <li>
-            <a href="/provkorning">Nyheter</a>
+            <a href="/nyheter">Nyheter</a>
           </li>
           <hr id="navigationbar-hr-line" />
           <li>
-            <a href="/kontakt">Kontakta Oss</a>
+            <a className="lower-list-item" href="/kontakt">Kontakta Oss</a>
           </li>
           <li>
-            <a href="/omoss">Om xxx</a>
+            <a className="lower-list-item" href="/omoss">Om xxx</a>
           </li>
           <li>
-            <a href="/prislista">PRISLISTA</a>
+            <a className="lower-list-item" href="/prislista">PRISLISTA</a>
           </li>
         </ul>
         <div className="topnav-mobile-hamburger" onClick={toggleHamburger}>

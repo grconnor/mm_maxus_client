@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../Fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../Fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+.flexbox-mainhero-container {
+  background-image: url(../../Images//hero-image-1680x930.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid red;
+  width: 100vw;
+  min-height: 1250px;
+  /* height: 100%; */
+}
+
+.flexbox-mainhero-container img {
+  border: 2px solid blue;
+  width: 100vw;
+  /* min-width: 1750px; */
+  /* clip-path: inset(100px 0% 100px 0%); */
+  /* margin-top: -150px; */
+  position: relative;
+  /* z-index: 1; */
+}
+
+.flexbox-mainhero-text-container {
+  border: 2px solid red;
+  position: relative;
+  margin-top: 900px;
+  margin-left: 100px;
+  width: 1790px;
+  /* position: absolute;
+  left: 40px;
+  bottom: 20px; */
+}
+
+.flexbox-mainhero-text-container h1 {
+  border: 2px solid red;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 60px; 
+  line-height: 65px;
+  font-weight: 500;
+  color: white;
+  margin-top: unset;
+}
+
+.flexbox-mainhero-button-container {
+  border: 2px solid blue;
+}
+
+.flexbox-mainhero-button-container #mainhero-modeller-button {
+  width: 195px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #2C387E;
+  border: none;
+}
+
+.flexbox-mainhero-button-container #mainhero-aterforsaljare-button {
+  width: 195px;
+  height: 35px;
+  border-radius: 25px;
+  margin-left: 20px;
+  border: none;
+}
+
+.flexbox-mainhero-button-container a {
+  display: inline-block;
+  width: 195px;
+  height: 35px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Evogria";
+  font-size: 14px;
+  line-height: 35px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+#aterforsaljare-a {
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+}
+
+#modeller-a {
+  background-color: #2C387E;
+  color: white;
+}

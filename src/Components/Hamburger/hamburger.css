@@ -16,3 +16,7 @@
   transform-origin: 1px;
   transition: all 0.3s linear;
 }
+
+.burger2 {
+  width: 1.5rem !important;
+}
