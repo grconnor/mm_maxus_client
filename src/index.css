@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.flexbox-content-wrapper {
+  /* border: 2px solid blue; */
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  margin-top: 100px;
+}
+
+/* .flexbox-content-wrapper {
+  border: 2px solid red; commented out
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 620px; commented out
+} */
