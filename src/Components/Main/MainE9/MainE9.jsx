@@ -11,7 +11,7 @@ const MainE9 = () => {
     <div className="flexbox-maine9-container">
       <div className="flexbox-maine9-text-container">
         <h1 id="maine9-heading">
-          E-DELIVER 9 - NU ÄR DEN HÄR
+          E-DELIVER 9 - NU ÄR DEN HÄR!
         </h1>
         <div className="flexbox-maine9-textbox-container">
           <div className="flexbox-maine9-textbox flexbox-maine9-textbox-1">
@@ -27,7 +27,7 @@ const MainE9 = () => {
               Lastutrymme
             </h3>
             <h4 id="maine9-textbox-secondary-heading-2">
-              9,7m<sup>3</sup> eller 11m<sup>3</sup>
+              9,7m³ eller 11m³ 
             </h4>
           </div>
           <div className="flexbox-maine9-textbox flexbox-maine9-textbox-3">

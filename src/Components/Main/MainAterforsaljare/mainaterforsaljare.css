@@ -23,20 +23,20 @@
   src: local('Evogria'), url(../../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Bold.ttf) format('truetype');
 }
 
-.flexbox-maineldrivna-container {
-  /* border: 2px solid red; */
+.flexbox-mainaterforsaljare-container {
+  border: 2px solid red;
   background-color: #4054B1;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 75px 0;
+  padding: 50px 0;
 }
 
-.flexbox-maineldrivna-container h2 {
+.flexbox-mainaterforsaljare-container h2 {
   border: 2px solid red;
-  font-family: "Saira-Regular";
+  font-family: "Saira-Bold";
   font-style: normal;
   font-size: 40px;
   line-height: 48px;
@@ -46,12 +46,45 @@
   margin-top: unset;
 }
 
-.flexbox-maineldrivna-container p {
+.flexbox-mainaterforsaljare-container p {
+  border: 2px solid red;
   font-family: "Saira-Regular";
   font-style: normal;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
   color: white;
-  margin-bottom: unset;
+  text-align: center;
+}
+
+.flexbox-mainaterforsaljare-container button {
+  /* border: 2px solid red; */
+  width: 221px;
+  height: 35px;
+  border-radius: 25px;
+  border: 2.5px solid white;
+  background-color: #4054B1;
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 500;
+}
+
+.flexbox-mainaterforsaljare-container button a:-webkit-any-link {
+  /* border: 2px solid red; */
+  display: block;
+  border-radius: 25px;
+  background-color: #4054B1;
+  color: white;
+  text-decoration: none;
+}
+
+.flexbox-mainaterforsaljare-container button:hover {
+  background-color: white;
+}
+
+.flexbox-mainaterforsaljare-container button:hover a:-webkit-any-link {
+  background-color: white;
+  color: black;
 }
