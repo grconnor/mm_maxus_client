@@ -14,7 +14,7 @@ code {
 
 .flexbox-content-wrapper {
   /* border: 2px solid blue; */
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
   overflow: hidden;
   display: block;

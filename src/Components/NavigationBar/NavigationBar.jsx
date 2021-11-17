@@ -91,7 +91,7 @@ const NavigationBar = () => {
             <a href="/eltransportbilar">Våre Eltransportbilar</a>
           </li>
           <li>
-            <a href="/aterforsaljare">Våra Åretförsäljare</a>
+            <a href="/aterforsaljare">Våra Återförsäljare</a>
           </li>
           <li>
             <a href="/nyheter">Nyheter</a>

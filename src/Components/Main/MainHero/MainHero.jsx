@@ -5,7 +5,7 @@ import React from "react";
 // Component Imports:
 
 // Image Imports
-import heroBanner from "../../Images/hero-image-1680x930.jpeg";
+import heroBanner from "../../../Images/hero-image-1680x930.jpeg";
 
 const MainHero = () => {
   return (
