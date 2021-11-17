@@ -10,7 +10,6 @@ import heroBanner from "../../../Images/hero-image-1680x930.jpeg";
 const MainHero = () => {
   return (
     <div className="flexbox-mainhero-container">
-      {/* <img src={heroBanner} alt="hero-banner" /> */}
       <div className="flexbox-mainhero-text-container">
         <h1 id="mainhero-heading">100% Eldrivna Person och <br /> Transportbilar</h1>
         <div className="flexbox-mainhero-button-container">

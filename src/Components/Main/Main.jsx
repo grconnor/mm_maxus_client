@@ -6,6 +6,7 @@ import React from "react";
 import MainHero from "./MainHero/MainHero";
 import MainEldrivna from "./MainEldrivna/MainEldrivna";
 import MainNyhetsbrev from "./MainNyhetsbrev/MainNyhetsbrev";
+import MainE9 from "./MainE9/MainE9";
 
 // Image Imports:
 
@@ -15,6 +16,7 @@ const Main = () => {
       <MainHero />
       <MainEldrivna />
       <MainNyhetsbrev />
+      <MainE9 />
       {/* <div stype="height: 100px">This is after Main Hero</div> */}
     </div>
   )
