@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Eina01-Regular';
-  src: local('Eina01-Regular'), url(../../Fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+  src: local('Eina01-Regular'), url(../../../Fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: "Evogria";
-  src: local('Evogria'), url(../../Fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+  src: local('Evogria'), url(../../../Fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
 }
 
 @font-face {
@@ -14,13 +14,14 @@
 }
 
 .flexbox-mainhero-container {
-  background-image: url(../../Images//hero-image-1680x930.jpeg);
+  background-image: url(../../../Images/hero-image-1680x930.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100vw;
-  min-height: 1250px;
+  min-height: 1236px;
+  height: 1238px;
   /* height: 100%; */
 }
 
@@ -35,9 +36,9 @@
 }
 
 .flexbox-mainhero-text-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
-  margin-top: 900px;
+  padding-top: 900px;
   margin-left: 100px;
   width: 1790px;
   /* position: absolute;
