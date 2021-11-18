@@ -1,0 +1,324 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../../Fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../../Fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+@font-face {
+  font-family: "Saira-Regular";
+  src: local('Evogria'), url(../../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Saira-Bold";
+  src: local('Evogria'), url(../../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Bold.ttf) format('truetype');
+}
+
+.flexbox-mainelbilar-container {
+  border: 2px solid blue;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.flexbox-mainelbilar-top-container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+}
+
+.flexbox-mainelbilar-top-container h2 {
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 700;
+  color: black;
+  margin-top: unset;
+}
+
+.flexbox-mainelbilar-selection-container {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  width: 1400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexbox-mainelbilar-item {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  /* opacity: 0.5; */
+  /* height: 131px; */
+}
+
+.flexbox-mainelbilar-item:hover {
+  cursor: pointer;
+}
+
+.flexbox-mainelbilar-item img {
+  width: auto;
+  height: 100px;
+}
+
+.flexbox-mainelbilar-item h4 {
+  margin-top: 10px;
+  font-family: "Saira-Regular";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.flexbox-mainelbilar-bottom-container {
+  border: 2px solid red;
+  width: 1200px;
+  min-height: 426px;
+  /* height: 200px; */
+}
+
+.flexbox-mainelbilar-euniqmpv-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexbox-mainelbilar-edeliver3-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexbox-mainelbilar-edeliver9-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexbox-mainelbilar-edeliver9chassis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexbox-mainelbilar-euniq6-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexbox-mainelbilar-euniqmpv-text-container h2 {
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  color: black;
+}
+
+.flexbox-mainelbilar-edeliver3-text-container h2 {
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  color: black;
+}
+
+.flexbox-mainelbilar-edeliver9-text-container h2 {
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  color: black;
+}
+
+.flexbox-mainelbilar-edeliver9chassis-text-container h2 {
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  color: black;
+}
+
+.flexbox-mainelbilar-euniq6-text-container h2 {
+
+}
+
+.flexbox-mainelbilar-euniqmpv-text-container ul li {
+  font-family: "Saira-Regular";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 7px;
+}
+
+.flexbox-mainelbilar-edeliver3-text-container ul li {
+  font-family: "Saira-Regular";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 7px;
+}
+
+.flexbox-mainelbilar-edeliver9-text-container ul li {
+  font-family: "Saira-Regular";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 7px;
+}
+
+.flexbox-mainelbilar-edeliver9chassis-text-container ul li {
+  font-family: "Saira-Regular";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: black;
+}
+
+.flexbox-mainelbilar-euniq6-text-container ul li {
+  font-family: "Saira-Regular";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 7px;
+}
+
+.flexbox-mainelbilar-euniqmpv-text-container button {
+  background-color: white;
+  width: 134px;
+  height: 34px;
+  border: 2.75px solid black;
+  border-radius: 25px;
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-top: 15px;
+}
+
+.flexbox-mainelbilar-edeliver3-text-container button {
+  background-color: white;
+  width: 134px;
+  height: 34px;
+  border: 2.75px solid black;
+  border-radius: 25px;
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-top: 15px;
+}
+
+.flexbox-mainelbilar-edeliver9-text-container button {
+  background-color: white;
+  width: 134px;
+  height: 34px;
+  border: 2.75px solid black;
+  border-radius: 25px;
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-top: 15px;
+}
+
+.flexbox-mainelbilar-edeliver9chassis-text-container button {
+  background-color: white;
+  width: 134px;
+  height: 34px;
+  border: 2.75px solid black;
+  border-radius: 25px;
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-top: 15px;
+}
+
+.flexbox-mainelbilar-euniq6-text-container button {
+  background-color: white;
+  width: 134px;
+  height: 34px;
+  border: 2.75px solid black;
+  border-radius: 25px;
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-top: 15px;
+}
+
+.flexbox-mainelbilar-euniqmpv-text-container button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.flexbox-mainelbilar-edeliver3-text-container button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.flexbox-mainelbilar-edeliver9-text-container button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.flexbox-mainelbilar-edeliver9chassis-text-container button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.flexbox-mainelbilar-euniq6-text-container button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

@@ -75,3 +75,8 @@
   background-color: #4054B1;
   color: white;
 }
+
+.flexbox-mainnyhetsbrev-input-container button:hover {
+  background-color: black;
+  cursor: pointer;
+}

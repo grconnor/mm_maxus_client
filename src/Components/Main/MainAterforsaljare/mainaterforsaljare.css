@@ -24,7 +24,7 @@
 }
 
 .flexbox-mainaterforsaljare-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: #4054B1;
   width: 100vw;
   display: flex;
