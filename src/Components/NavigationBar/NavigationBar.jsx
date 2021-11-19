@@ -88,13 +88,10 @@ const NavigationBar = () => {
             <a href="/personbilar">Våra Personbilar</a>
           </li>
           <li>
-            <a href="/eltransportbilar">Våre Eltransportbilar</a>
+            <a href="/eltransportbilar">Våra Eltransportbilar</a>
           </li>
           <li>
             <a href="/aterforsaljare">Våra Återförsäljare</a>
-          </li>
-          <li>
-            <a href="/nyheter">Nyheter</a>
           </li>
           <hr id="navigationbar-hr-line" />
           <li>

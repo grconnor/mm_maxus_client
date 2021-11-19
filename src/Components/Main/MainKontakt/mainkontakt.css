@@ -1,0 +1,39 @@
+.flexbox-mainkontakt-container {
+  border: 2px solid red;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-mainkontakt-heading-container {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-mainkontakt-heading-container h1 {
+  font-family: "Saira-Bold", sans-serif;
+  font-style: normal;
+  font-size: 54px;
+  line-height: 59px;
+  font-weight: 700;
+  color: black;
+  margin-top: unset;
+}
+
+.flexbox-mainkontakt-heading-container p {
+  font-family: "Saira-Regular", sans-serif;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 400;
+  color: black;
+}
+
+.flexbox-mainkontakt-form-container {
+  border: 2px solid red;
+}

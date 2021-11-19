@@ -6,6 +6,7 @@ import React from "react";
 import MainE9 from "./MainE9/MainE9";
 import MainHero from "./MainHero/MainHero";
 import MainElbilar from "./MainElbilar/MainElbilar";
+import MainKontakt from "./MainKontakt/MainKontakt";
 import MainEldrivna from "./MainEldrivna/MainEldrivna";
 import MainNyhetsbrev from "./MainNyhetsbrev/MainNyhetsbrev";
 import MainAterforsaljare from "./MainAterforsaljare/MainAterforsaljare";
@@ -17,10 +18,11 @@ const Main = () => {
     <div className="flexbox-main-outer-container">
       <MainHero />
       <MainEldrivna />
-      <MainNyhetsbrev />
+      {/* <MainNyhetsbrev /> */}
       <MainE9 />
       <MainElbilar />
       <MainAterforsaljare />
+      <MainKontakt />
       {/* <div stype="height: 100px">This is after Main Hero</div> */}
     </div>
   )

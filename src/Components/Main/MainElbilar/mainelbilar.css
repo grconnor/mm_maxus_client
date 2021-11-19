@@ -171,7 +171,12 @@
 }
 
 .flexbox-mainelbilar-euniq6-text-container h2 {
-
+  font-family: "Saira-Bold";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 700;
+  color: black;
 }
 
 .flexbox-mainelbilar-euniqmpv-text-container ul li {

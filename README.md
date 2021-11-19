@@ -13,9 +13,9 @@
 
 # Fixes:
 
-- 
-- 
-- 
+- https://www.mbil.se/om-oss/integritetspolicy
+- leads@mbil.se
+- Våra aterfösäljare button -> boka provkorning
 - 
 - 
 - 
