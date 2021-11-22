@@ -327,3 +327,11 @@
   background-color: black;
   cursor: pointer;
 }
+
+#mainelbilar-euniq-mpv-provkor-button,
+#mainelbilar-edeliver3-provkor-button,
+#mainelbilar-edeliver9-provkor-button,
+#mainelbilar-edeliver9chassis-provkor-button,
+#mainelbilar-euniq6-provkor-button {
+  width: 160px;
+}
