@@ -1,10 +1,11 @@
 // Library Imports:
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import NavigationBar from "./Components/NavigationBar.jsx/NavigationBar";
+import Footer from "./Components/Footer/Footer";
 
 // Component Imports:
 import Main from "./Components/Main/Main";
+import NavigationBar from "./Components/NavigationBar/NavigationBar";
 
 // Image Imports:
 import MaxusLogo from "./Images/Logos/maxus-logo.png";
@@ -22,6 +23,7 @@ const App = () => {
           
           {/* <Route exact path="/" component={Main} /> */}
         </Switch>
+        <Footer />
       </div>
     </>
   )
