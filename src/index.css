@@ -13,13 +13,14 @@ code {
 }
 
 .flexbox-content-wrapper {
-  /* border: 2px solid blue; */
-  min-height: 90vh;
+  border: 2px solid red;
+  min-height: 59vh;
   width: 100%;
   overflow: hidden;
   display: block;
   position: relative;
   margin-top: 100px;
+  padding-bottom: 450px;
   z-index: 1;
 }
 

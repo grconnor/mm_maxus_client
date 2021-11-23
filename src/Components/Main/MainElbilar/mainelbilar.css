@@ -57,6 +57,7 @@
   display: flex;
   flex-direction: row;
   width: 1400px;
+  height: 160px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -76,9 +77,15 @@
   cursor: pointer;
 }
 
+.flexbox-mainelbilar-item:hover img {
+  transform: scale(1.35);
+  padding-bottom: 10px;
+}
+
 .flexbox-mainelbilar-item img {
   width: auto;
   height: 100px;
+  transition: transform .2s;
 }
 
 .flexbox-mainelbilar-item h4 {
