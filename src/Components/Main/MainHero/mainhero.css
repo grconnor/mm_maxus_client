@@ -26,7 +26,7 @@
 }
 
 .flexbox-mainhero-container img {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100vw;
   /* min-width: 1750px; */
   /* clip-path: inset(100px 0% 100px 0%); */
@@ -47,7 +47,7 @@
 }
 
 .flexbox-mainhero-text-container h1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-style: normal;
   font-size: 60px; 
@@ -58,7 +58,7 @@
 }
 
 .flexbox-mainhero-button-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .flexbox-mainhero-button-container #mainhero-modeller-button {
@@ -91,6 +91,21 @@
   font-weight: 100;
 }
 
+.flexbox-mainhero-button-container button {
+  display: inline-block;
+  width: 195px;
+  height: 35px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Evogria";
+  font-size: 14px;
+  line-height: 35px;
+  font-style: normal;
+  font-weight: 100;
+  border: none;
+}
+
 #aterforsaljare-a {
   margin-left: 20px;
   background-color: white;
@@ -100,4 +115,31 @@
 #modeller-a {
   background-color: #2C387E;
   color: white;
+}
+
+#modeller-button {
+  background-color: #2C387E;
+  color: white;
+}
+
+#provkorning-button {
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+}
+
+.flexbox-mainhero-button-container #modeller-button:hover {
+  background-color: #1f2758;
+}
+
+.flexbox-mainhero-button-container #provkorning-button:hover {
+  background-color: #e6e6e6;
+}
+
+.flexbox-mainhero-button-container #modeller-a:hover {
+  background-color: #1f2758;
+}
+
+.flexbox-mainhero-button-container #aterforsaljare-a:hover {
+  background-color: #e6e6e6;
 }

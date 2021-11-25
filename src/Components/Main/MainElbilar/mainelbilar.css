@@ -34,7 +34,7 @@
 }
 
 .flexbox-mainelbilar-top-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,18 +42,18 @@
   width: 1400px;
 }
 
-.flexbox-mainelbilar-top-container h2 {
+.flexbox-mainelbilar-top-container h1 {
   font-family: "Saira-Bold";
   font-style: normal;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 40px;
+  line-height: 48px;
   font-weight: 700;
   color: black;
   margin-top: unset;
 }
 
 .flexbox-mainelbilar-selection-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   width: 1400px;
@@ -63,7 +63,7 @@
 }
 
 .flexbox-mainelbilar-item {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +99,7 @@
 }
 
 .flexbox-mainelbilar-bottom-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 1200px;
   min-height: 426px;
   /* height: 200px; */

@@ -120,6 +120,7 @@
 
 .flexbox-footer-item ul li {
   /* border: 2px solid red; */
+  min-width: 100px;
   font-family: "Saira-Regular", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -131,6 +132,19 @@
   padding-bottom: 2px;
 }
 
+.flexbox-footer-item ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.flexbox-footer-item ul li a:hover {
+  cursor: pointer;
+}
+
+.flexbox-footer-item ul li:hover {
+  cursor: pointer;
+}
+
 .flexbox-footer-item ul #li-1 {
   width: 75px;
 }
@@ -140,6 +154,10 @@
 }
 
 .flexbox-footer-item ul li:hover {
+  color: white;
+}
+
+.flexbox-footer-item ul li a:hover {
   color: white;
 }
 

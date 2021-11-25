@@ -49,7 +49,7 @@ class MainElbilar extends Component {
     return (
       <div className="flexbox-mainelbilar-container">
         <div className="flexbox-mainelbilar-top-container">
-          <h2 id="mainelbilar-heading">VÅRA ELBILAR</h2>
+          <h1 id="mainelbilar-heading">VÅRA ELBILAR</h1>
           <div className="flexbox-mainelbilar-selection-container">
             <div
               className="flexbox-mainelbilar-item"

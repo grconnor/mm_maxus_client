@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../Fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../Fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+@font-face {
+  font-family: "Saira-Regular";
+  src: local('Evogria'), url(../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Saira-Bold";
+  src: local('Evogria'), url(../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Bold.ttf) format('truetype');
+}
+
+.flexbox-aterforsaljare-container {
+  /* border: 2px solid red; */
+  width: 100vw;
+  min-height: 790px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.flexbox-aterforsaljare-container h1 {
+  /* border: 2px solid blue; */
+  font-family: "Saira-Bold", sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  height: 50px;
+}
+
+.flexbox-aterforsaljare-item-container {
+  /* border: 2px solid blue; */
+  background-color: #F3EFEB;
+  width: 100%;
+  min-height: 722px;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexbox-aterforsaljare-item {
+  /* border: 2px solid red; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: calc(30% - 40px);
+  /* max-width: 540px; */
+  /* margin-top: 300px; */
+  border: 1px solid #e4e4e4;
+  padding: 25px 25px 30px 25px;
+  box-shadow: 0 6px 12px 0 rgb(0 0 0 / 10%);
+  border-radius: 5px;
+}
+
+.flexbox-aterforsaljare-item h3 {
+  font-family: "Saira-Bold", sans-serif;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 700;
+  color: black;
+}
+
+.flexbox-aterforsaljare-item a {
+  font-family: "Saira-Regular", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.flexbox-aterforsaljare-item span {
+  font-family: "Saira-Regular", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.flexbox-aterforsaljare-item #aterforsaljare-email {
+  margin-bottom: 15px;
+}

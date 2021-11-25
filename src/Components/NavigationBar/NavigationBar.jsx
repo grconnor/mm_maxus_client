@@ -78,18 +78,22 @@ const NavigationBar = () => {
     }
   }
 
+  function logoRedirect() {
+    window.location.href = "/"
+  }
+
   return (
       <div className="mobile-nav-outer-container">
         <ul id="mobile-navigation-list">
           <li>
             <a href="/">Startsida</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/personbilar">Våra Personbilar</a>
           </li>
           <li>
             <a href="/eltransportbilar">Våra Eltransportbilar</a>
-          </li>
+          </li> */}
           <li>
             <a href="/aterforsaljare">Våra Återförsäljare</a>
           </li>
@@ -98,17 +102,17 @@ const NavigationBar = () => {
             <a className="lower-list-item" href="/kontakt">Kontakta Oss</a>
           </li>
           <li>
-            <a className="lower-list-item" href="/omoss">Om xxx</a>
+            <a className="lower-list-item" href="/omoss">Om Oss</a>
           </li>
           <li>
-            <a className="lower-list-item" href="/prislista">PRISLISTA</a>
+            <a className="lower-list-item" href="https://viewer.ipaper.io/rsa-no/rsa-sverige/maxus-sverige/maxus-kundprislista1/">PRISLISTA</a>
           </li>
         </ul>
         <div className="topnav-mobile-hamburger" onClick={toggleHamburger}>
           <Hamburger isOpen={hamburgerOpen} />
         </div>
         <div className="flexbox-navigationbar-logo-container">
-          <img src={maxusLogo} alt="maxus-logo" />
+          <img onClick={logoRedirect} src={maxusLogo} alt="maxus-logo" />
         </div>
       </div>
   );

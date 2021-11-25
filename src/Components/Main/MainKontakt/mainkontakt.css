@@ -112,6 +112,11 @@
   line-height: 18px;
   font-weight: 700;
   color: white;
+  border-radius: 10px;
+}
+
+.flexbox-mainkontakt-form-selection-container button:hover {
+  cursor: pointer;
 }
 
 .flexbox-mainkontakt-form-provkorning {

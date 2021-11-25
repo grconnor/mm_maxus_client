@@ -25,7 +25,8 @@
 
 .flexbox-maineldrivna-container {
   /* border: 2px solid red; */
-  background-color: #4054B1;
+  /* background-color: #4054B1; */
+  background-color: black;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -35,7 +36,7 @@
 }
 
 .flexbox-maineldrivna-container h2 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-family: "Saira-Regular";
   font-style: normal;
   font-size: 40px;
@@ -54,4 +55,5 @@
   font-weight: 400;
   color: white;
   margin: unset;
+  text-align: center;
 }

@@ -39,7 +39,7 @@
 }
 
 .flexbox-maine9-text-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
   width: 100%;
   display: flex;
@@ -60,7 +60,7 @@
 }
 
 .flexbox-maine9-textbox-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -69,7 +69,7 @@
 }
 
 .flexbox-maine9-textbox {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 280px;
   height: 101px;
   background-color: rgba(0, 0, 0, 0.8);

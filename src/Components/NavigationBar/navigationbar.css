@@ -13,6 +13,16 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
+@font-face {
+  font-family: "Saira-Regular";
+  src: local('Evogria'), url(../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Saira-Bold";
+  src: local('Evogria'), url(../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Bold.ttf) format('truetype');
+}
+
 /* Navigation Bar, name and slogan. */
 
 .topnav-mobile-hamburger {
@@ -36,7 +46,8 @@
   left: 0;
   /* display: flex; */
   /* flex-direction: column; */
-  background-color: #2C387E;
+  /* background-color: #2C387E; */
+  background-color: black;
   z-index: 100;
 }
 
@@ -61,7 +72,8 @@
   /* border: 2px solid blue; */
   display: none;
   /* background-color: #c31631; */
-  background-color: #2C387E;
+  /* background-color: #2C387E; */
+  background-color: black;
   /* border: 2px solid black; */
   height: 100vh;
   width: 100vh;
@@ -103,11 +115,11 @@
 }
 
 .lower-list-item:hover {
-  color: black !important;
+  color: #2C387E !important;
 }
 
 .mobile-nav-outer-container ul li:hover a {
-  color: black;
+  color: #2C387E;
 }
 
 .mobile-navigation-under {
@@ -170,9 +182,16 @@
   cursor: pointer;
 }
 
-.flexbox-navigationbar-menu-logo img {
-  height: 28px;
-  width: 188px;
+.flexbox-navigationbar-logo-container img {
+  /* border: 2px solid red; */
+  /* height: 28px;
+  width: 188px; */
+  height: 34px;
+  width: 255px;
+}
+
+.flexbox-navigationbar-logo-container img:hover {
+  cursor: pointer;
 }
 
 .flexbox-navigationbar-menu-logo-message-container {

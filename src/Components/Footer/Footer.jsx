@@ -17,7 +17,7 @@ const Footer = () => {
             Mobility Motors Maxus Sverige
           </h4>
           <span id="footer-business-tel">
-            Telefon: <a href="tel: +4618146970">018-14 69 70 CHANGE</a>
+            Telefon: <a href="tel: +46769999999">0769999999</a>
           </span>
           <span id="footer-business-email">
             E-post: <a href="mailto: info@rsasverige.se">info@rsasverige.se</a>
@@ -40,10 +40,14 @@ const Footer = () => {
           </div>
           <ul>
             <li id="li-1">
-              Kontakta oss
+              <a id="footer-kontakt" href="/kontakt">
+                Kontakta Oss
+              </a>
             </li>
             <li id="li-2">
-              Integritetspolicy
+              <a id="footer-policy" href="https://www.mbil.se/om-oss/integritetspolicy">
+                Integritetspolicy
+              </a>
             </li>
           </ul>
         </div>
