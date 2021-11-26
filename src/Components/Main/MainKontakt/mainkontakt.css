@@ -29,6 +29,74 @@
       format("truetype");
 }
 
+@media only screen and (max-width: 830px) {
+  body .flexbox-mainkontakt-form-container {
+    width: 80vw !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body .flexbox-mainkontakt-heading-container h1 {
+    font-size: 44px;
+    line-height: 49px;
+  }
+
+  body .flexbox-mainkontakt-heading-container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  body .flexbox-mainkontakt-form-container {
+    /* border: 2px solid red !important; */
+    width: 90vw;
+    padding: 15px;
+  }
+
+  body .flexbox-mainkontakt-form-selection-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 75px; */
+    justify-content: center;
+  }
+
+  body .flexbox-mainkontakt-form-provkorning-label-input-container {
+    width: 100%;
+  }
+
+  body .flexbox-mainkontakt-information-container {
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: unset;
+    flex-direction: column;
+  }
+
+  body .flexbox-mainkontakt-form-provkorning-label-input-container select {
+    /* border: 2px solid red !important; */
+    height: 40px;
+    width: 100%;
+  }
+
+  body .flexbox-mainkontakt-information-container input {
+    width: 99%;
+  }
+
+  body .flexbox-mainkontakt-form-provkorning form button {
+    width: 100%;
+  }
+
+  body .flexbox-mainkontakt-form-selection-container button {
+    border-radius: 0px;
+  }
+
+  body .flexbox-mainkontakt-form-provkorning-label-input-container #forfragan {
+    width: 98.5%;
+    height: 138px;
+  }
+}
+
 .flexbox-mainkontakt-container {
   /* border: 2px solid red; */
   width: 100vw;
@@ -56,6 +124,7 @@
   color: black;
   margin-top: unset;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .flexbox-mainkontakt-heading-container p {
@@ -84,9 +153,9 @@
 }
 
 .flexbox-mainkontakt-form-selection-container {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
-  /* border: 2px solid red; */
   width: 255px;
   justify-content: space-between;
 }
@@ -136,13 +205,14 @@
 }
 
 .flexbox-mainkontakt-form-provkorning form fieldset {
-  /* border: 2px solid red; */
+  /* border: 2px solid blue !important; */
   /* width: 95%; */
   border: 1px solid #ccc;
   border-radius: 3px;
 }
 
 .flexbox-mainkontakt-form-provkorning-label-input-container label {
+  /* border: 2px solid red; */
   font-family: "Saira-Bold", sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -153,6 +223,7 @@
 }
 
 .flexbox-mainkontakt-form-provkorning-label-input-container #forfragan {
+  /* border: 2px solid red !important; */
   border: 1px solid #ccc;
   background-color: #FAFAFA;
   width: 648px;
@@ -160,6 +231,7 @@
 }
 
 .flexbox-mainkontakt-form-provkorning-label-input-container select {
+  /* border: 2px solid red !important; */
   height: 40px;
   width: 648px;
   background-color: #FAFAFA;
@@ -176,7 +248,7 @@
 }
 
 .flexbox-mainkontakt-information-container {
-  /* border: 2px solid red; */
+  /* border: 2px solid blue; */
   width: 95%;
   height: 40px;
   display: flex;
@@ -190,6 +262,7 @@
 }
 
 .flexbox-mainkontakt-information-container input {
+  /* border: 2px solid red !important; */
   font-family: "Saira-Regular", sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -203,6 +276,8 @@
   border: 1px solid #ccc;
   padding: 0 15px;
 }
+
+/* HERE */
 
 .flexbox-mainkontakt-form-provkorning-villkor-container {
   /* border: 2px solid red; */
