@@ -135,6 +135,7 @@
   font-weight: 400;
   color: black;
   width: 70%;
+  min-width: 257px;
   text-align: center;
   margin-top: unset;
 }
