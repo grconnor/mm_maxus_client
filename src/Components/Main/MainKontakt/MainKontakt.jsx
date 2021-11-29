@@ -18,7 +18,33 @@ export default class MainKontakt extends Component {
     forfragan: "",
   };
 
+  buttonCheck = () => {
+    setTimeout(() => {
+      const { step } = this.state;
+      if (step == 1) {
+        const kontaktButton = document.getElementById(
+          "selection-kontakt-button"
+        );
+        const provkorningButton = document.getElementById(
+          "selection-provkorning-button"
+        );
+        provkorningButton.style.opacity = "1";
+        kontaktButton.style.opacity = "0.5";
+      } else if (step == 2) {
+        const kontaktButton = document.getElementById(
+          "selection-kontakt-button"
+        );
+        const provkorningButton = document.getElementById(
+          "selection-provkorning-button"
+        );
+        provkorningButton.style.opacity = "0.5";
+        kontaktButton.style.opacity = "1";
+      }
+    }, 0);
+  };
+
   onClick = (value) => (e) => {
+    this.buttonCheck();
     const { step } = this.state;
     this.setState({
       step: value,
@@ -83,13 +109,16 @@ export default class MainKontakt extends Component {
           <div className="flexbox-mainkontakt-form-selection-container">
             <button
               onClick={this.onClick("1")}
-              id="mainkontakt-form-selection-button"
+              // onClick={() => { this.onClick("1"); this.provkorningClick();}}
+              // onClick={this.onClick("1")}
+              id="selection-provkorning-button"
             >
               Provkörning
             </button>
             <button
               onClick={this.onClick("2")}
-              id="mainkontakt-form-selection-button"
+              // onClick={() => { this.onClick("2"); this.kontaktClick();}}
+              id="selection-kontakt-button"
             >
               Meddela Oss
             </button>
@@ -201,7 +230,12 @@ export default class MainKontakt extends Component {
                       >
                         <div className="flexbox-mainkontakt-form-provkorning-label-input-container">
                           <label for="forfragan">FÖRFRÅGAN</label>
-                          <textarea id="forfragan" name="forfragan" rows="5" cols="50" />
+                          <textarea
+                            id="forfragan"
+                            name="forfragan"
+                            rows="5"
+                            cols="50"
+                          />
                         </div>
                         <fieldset>
                           <legend>KONTAKTINFORMATION</legend>

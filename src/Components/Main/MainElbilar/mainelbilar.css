@@ -23,8 +23,115 @@
   src: local('Evogria'), url(../../../Fonts/Saira_Semi_Condensed/SairaSemiCondensed-Bold.ttf) format('truetype');
 }
 
+@media only screen and (max-width: 665px) {
+  body .flexbox-mainelbilar-euniqmpv-container img {
+    width: 90vw;
+    height: auto;
+    min-width: 310px;
+  }
+  
+  body .flexbox-mainelbilar-edeliver3-container img {
+    width: 90vw;
+    height: auto;
+    min-width: 310px;
+  }
+  
+  body .flexbox-mainelbilar-edeliver9-container img {
+    width: 90vw;
+    height: auto;
+    min-width: 290px;
+    padding-right: 20px;
+  }
+  
+  body .flexbox-mainelbilar-edeliver9chassis-container img {
+    width: 90vw;
+    height: auto;
+    min-width: 290px;
+    padding-right: 20px;
+  }
+  
+  body .flexbox-mainelbilar-euniq6-container img {
+    width: 90vw;
+    height: auto;
+    min-width: 290px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  body .flexbox-mainelbilar-euniqmpv-container {
+    flex-direction: column;
+    width: 96%;
+    padding: 0 20px;
+  }
+  
+  body .flexbox-mainelbilar-edeliver3-container {
+    flex-direction: column;
+    width: 96%;
+    padding: 0 20px;
+  }
+  
+  body .flexbox-mainelbilar-edeliver9-container {
+    flex-direction: column;
+    width: 96%;
+    padding: 0 20px;
+  }
+  
+  body .flexbox-mainelbilar-edeliver9chassis-container {
+    flex-direction: column;
+    width: 96%;
+    padding: 0 20px;
+  }
+  
+  body .flexbox-mainelbilar-euniq6-container {
+    flex-direction: column;
+    width: 96%;
+    padding: 0 20px;
+  }
+
+  /* Text Container: */
+
+  body .flexbox-mainelbilar-euniqmpv-container img {
+    order: 2;
+  }
+  
+  body .flexbox-mainelbilar-edeliver3-container img {
+    order: 2;
+  }
+  
+  body .flexbox-mainelbilar-edeliver9-container img {
+    order: 2;
+  }
+  
+  body .flexbox-mainelbilar-edeliver9chassis-container img {
+    order: 2;
+  }
+  
+  body .flexbox-mainelbilar-euniq6-container img {
+    order: 2;
+  }
+
+  /* Bottom Container */
+
+  body .flexbox-mainelbilar-bottom-container {
+    width: 95vw;
+  }
+}
+
+@media only screen and (max-width: 1415px) {
+  body .flexbox-mainelbilar-top-container {
+    width: 100vw;
+  }
+
+  body .flexbox-mainelbilar-selection-container {
+    flex-direction: column;
+    width: 100%;
+    height: calc(148px * 5 + 10px);
+  }
+}
+
 .flexbox-mainelbilar-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -63,7 +170,7 @@
 }
 
 .flexbox-mainelbilar-item {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,14 +206,15 @@
 }
 
 .flexbox-mainelbilar-bottom-container {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   width: 1200px;
   min-height: 426px;
   /* height: 200px; */
 }
 
 .flexbox-mainelbilar-euniqmpv-container {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -114,6 +222,8 @@
 }
 
 .flexbox-mainelbilar-edeliver3-container {
+  border: 2px solid blue;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -121,6 +231,8 @@
 }
 
 .flexbox-mainelbilar-edeliver9-container {
+  border: 2px solid blue;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -128,6 +240,8 @@
 }
 
 .flexbox-mainelbilar-edeliver9chassis-container {
+  border: 2px solid blue;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -135,6 +249,8 @@
 }
 
 .flexbox-mainelbilar-euniq6-container {
+  border: 2px solid blue;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

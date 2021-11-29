@@ -187,6 +187,7 @@
 
 .flexbox-mainkontakt-form-selection-container button:hover {
   cursor: pointer;
+  background-color: black;
 }
 
 .flexbox-mainkontakt-form-provkorning {
@@ -348,4 +349,8 @@
   color: white;
   background-color: black;
   cursor: pointer;
+}
+
+#selection-kontakt-button {
+  opacity: 0.5;
 }
