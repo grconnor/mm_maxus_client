@@ -3,13 +3,15 @@
 # To-do:
 
 - Box-border on MainHero image?
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- Add responsive navbar for computer up.
+- Get Mobility Logo from Elsa/Christina.
+- Sizing for landing hero image - so that text is visible on load + mobile - max height?
+- Button redirection in ELbilar. 
+- Change "Återförsäljare" -> "Anläggningar.
+- Typo in form - "Moblity Motos Sätraf".
+- Change "meddela oss" to "skicka meddelande".
+- Add links to the SoMe - icons.
+- Change "Vem är vi" to "Vilka är vi".
 
 # Fixes:
 

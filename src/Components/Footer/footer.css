@@ -33,6 +33,14 @@
   body .flexbox-footer-item-2 {
     min-width: 180px;
   }
+
+  body .flexbox-footer-item {
+    align-items: center;
+  }
+
+  body .flexbox-footer-item ul {
+    margin-top: 50px;
+  }
 }
 
 .flexbox-footer-container {
@@ -51,7 +59,7 @@
 }
 
 .flexbox-footer-item-container {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   width: 60%;
   max-width: 980px;
   display: flex;
@@ -61,15 +69,13 @@
 }
 
 .flexbox-footer-item {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   /* min-width: 423px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
-
-
 
 .flexbox-footer-item #footer-business-name {
   font-family: "Saira-Regular", sans-serif;
@@ -132,7 +138,7 @@
   /* border: 2px solid blue; */
   list-style: none;
   padding: unset;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 60px;
 }
 

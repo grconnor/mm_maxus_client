@@ -25,7 +25,7 @@
 
 @media only screen and (max-width: 801px) {
   body .flexbox-maine9-text-container h1 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     font-family: "Evogria", "Roboto-Condensed", sans-serif;
     font-style: normal;
     font-size: 70px; 
@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 1005px) {
   body .flexbox-maine9-textbox-container {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,7 +67,7 @@
 }
 
 .flexbox-maine9-text-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
   width: 90%;
   min-height: 800px;
@@ -79,7 +79,7 @@
 }
 
 .flexbox-maine9-text-container h1 {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-style: normal;
   font-size: 100px; 
@@ -91,7 +91,7 @@
 }
 
 .flexbox-maine9-textbox-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;

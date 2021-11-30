@@ -31,7 +31,7 @@
 }
 
 .flexbox-mainaterforsaljare-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* background-color: #4054B1; */
   background-color: black;
   width: 100vw;
@@ -43,7 +43,7 @@
 }
 
 .flexbox-mainaterforsaljare-container h2 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 95vw;
   font-family: "Saira-Bold";
   font-style: normal;
@@ -56,7 +56,7 @@
 }
 
 .flexbox-mainaterforsaljare-container p {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 90vw;
   font-family: "Saira-Regular";
   font-style: normal;

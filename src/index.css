@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+@media only screen and (max-width: 650px) {
+  body .flexbox-content-wrapper {
+    padding-bottom: 465px;
+  }
+}
+
 .flexbox-content-wrapper {
   border: 2px solid red;
   min-height: 59vh;
@@ -20,7 +26,8 @@ code {
   display: block;
   position: relative;
   margin-top: 100px;
-  padding-bottom: 450px;
+  /* padding-bottom: 450px; */
+  padding-bottom: 311px;
   z-index: 1;
 }
 

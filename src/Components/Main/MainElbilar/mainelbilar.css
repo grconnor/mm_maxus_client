@@ -170,7 +170,7 @@
 }
 
 .flexbox-mainelbilar-item {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,14 +206,14 @@
 }
 
 .flexbox-mainelbilar-bottom-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 1200px;
   min-height: 426px;
   /* height: 200px; */
 }
 
 .flexbox-mainelbilar-euniqmpv-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -222,7 +222,7 @@
 }
 
 .flexbox-mainelbilar-edeliver3-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -231,7 +231,7 @@
 }
 
 .flexbox-mainelbilar-edeliver9-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -240,7 +240,7 @@
 }
 
 .flexbox-mainelbilar-edeliver9chassis-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -249,7 +249,7 @@
 }
 
 .flexbox-mainelbilar-euniq6-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: row;
