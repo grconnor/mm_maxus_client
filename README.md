@@ -6,21 +6,13 @@
 - Add responsive navbar for computer up.
 - Get Mobility Logo from Elsa/Christina.
 - Sizing for landing hero image - so that text is visible on load + mobile - max height?
-- Button redirection in ELbilar. 
 - Change "Återförsäljare" -> "Anläggningar.
-- Typo in form - "Moblity Motos Sätraf".
-- Change "meddela oss" to "skicka meddelande".
 - Add links to the SoMe - icons.
-- Change "Vem är vi" to "Vilka är vi".
 
 # Fixes:
 
 - https://www.mbil.se/om-oss/integritetspolicy
 - leads@mbil.se
-- Våra aterfösäljare button -> boka provkorning
-- 
-- 
-- 
 - 
 
 # Getting Started with Create React App

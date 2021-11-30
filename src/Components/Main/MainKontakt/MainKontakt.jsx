@@ -120,7 +120,7 @@ export default class MainKontakt extends Component {
               // onClick={() => { this.onClick("2"); this.kontaktClick();}}
               id="selection-kontakt-button"
             >
-              Meddela Oss
+              Skicka Meddelande
             </button>
           </div>
           {(() => {
@@ -157,9 +157,9 @@ export default class MainKontakt extends Component {
                           id="aterforsaljare"
                           form="provkorning"
                         >
-                          <option value="">Mobility Motors Bromma</option>
-                          <option value="">Mobility Motors Sätraf</option>
-                          <option value=""></option>
+                          <option value="bromma">Mobility Motors Bromma</option>
+                          <option value="satra">Mobility Motors Sätra</option>
+                          <option value="lorem">Ipsum Lorem Sit</option>
                         </select>
                       </div>
                       <fieldset>

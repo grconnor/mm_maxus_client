@@ -23,6 +23,11 @@ class MainElbilar extends Component {
     step: 1,
   };
 
+  provkorningRedirect= (e) => {
+    console.log("provkorningRedirect")
+    window.scrollTo(0, 3400)
+  }
+
   onClick = (value) => (e) => {
     const { step } = this.state;
     this.setState({
@@ -121,6 +126,7 @@ class MainElbilar extends Component {
                       <button
                         type="button"
                         id="mainelbilar-euniq-mpv-provkor-button"
+                        onClick={this.provkorningRedirect}
                       >
                         BOKA PROVKÖRNING
                       </button>
@@ -155,6 +161,7 @@ class MainElbilar extends Component {
                         }}
                         type="button"
                         id="mainelbilar-edeliver3-provkor-button"
+                        onClick={this.provkorningRedirect}
                       >
                         BOKA PROVKÖRNING
                       </button>
@@ -187,6 +194,7 @@ class MainElbilar extends Component {
                       <button
                         type="button"
                         id="mainelbilar-edeliver9-provkor-button"
+                        onClick={this.provkorningRedirect}
                       >
                         BOKA PROVKÖRNING
                       </button>
@@ -216,6 +224,7 @@ class MainElbilar extends Component {
                       <button
                         type="button"
                         id="mainelbilar-edeliver9chassis-provkor-button"
+                        onClick={this.provkorningRedirect}
                       >
                         BOKA PROVKÖRNING
                       </button>
@@ -247,6 +256,7 @@ class MainElbilar extends Component {
                       <button
                         type="button"
                         id="mainelbilar-euniq6-provkor-button"
+                        onClick={this.provkorningRedirect}
                       >
                         BOKA PROVKÖRNING
                       </button>
@@ -278,6 +288,7 @@ class MainElbilar extends Component {
                       <button
                         type="button"
                         id="mainelbilar-euniq-mpv-provkor-button"
+                        onClick={this.provkorningRedirect}
                       >
                         BOKA PROVKÖRNING
                       </button>

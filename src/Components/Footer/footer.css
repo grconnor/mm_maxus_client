@@ -59,7 +59,7 @@
 }
 
 .flexbox-footer-item-container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 60%;
   max-width: 980px;
   display: flex;
@@ -69,7 +69,7 @@
 }
 
 .flexbox-footer-item {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* min-width: 423px; */
   display: flex;
   flex-direction: column;

@@ -9,7 +9,7 @@ import React from "react";
 const Aterforsaljare = () => {
   return (
     <div className="flexbox-aterforsaljare-container">
-      <h1 id="aterforsaljare-heading">HITTA ÅTERFÖRSÄLJARE</h1>
+      <h1 id="aterforsaljare-heading">HITTA ANLÄGGNINGAR</h1>
       <div className="flexbox-aterforsaljare-item-container">
         <div className="flexbox-aterforsaljare-item flexbox-aterforsaljare-item-1">
           <h3 id="aterforsaljare-heading">Mobility Motors Sätra</h3>

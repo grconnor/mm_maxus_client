@@ -26,7 +26,7 @@ const OmOss = () => {
           <div className="flexbox-omoss-vemarvi-paragraph-container">
             <div className="flexbox-omoss-vemarvi-paragraph-heading-container">
               <h2 id="omoss-paragraph-heading">
-                Vem Är Vi
+                Vilka Är Vi
               </h2>
               <div className="hr-line">&nbsp;</div>
             </div>

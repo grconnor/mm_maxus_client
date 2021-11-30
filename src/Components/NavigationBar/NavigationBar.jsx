@@ -95,7 +95,7 @@ const NavigationBar = () => {
             <a href="/eltransportbilar">Våra Eltransportbilar</a>
           </li> */}
           <li>
-            <a href="/aterforsaljare">Våra Återförsäljare</a>
+            <a href="/aterforsaljare">Våra Anläggningar</a>
           </li>
           <hr id="navigationbar-hr-line" />
           <li>
